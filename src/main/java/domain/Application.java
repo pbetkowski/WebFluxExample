@@ -27,6 +27,10 @@ public class Application {
 
     }
 
+    public int add (int x, int y) {
+        return x*y;
+    }
+
 //    private static void getWeatherFromApi() {
 //        WebClient.create(Endpoints.BASE + Endpoints.APIKEY)
 //                .get()
