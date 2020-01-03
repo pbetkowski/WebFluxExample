@@ -24,6 +24,7 @@ public class Application {
         System.getProperties().put("server.port", 1000);
         SpringApplication.run(Application.class, args);
         System.out.println("Aplikacja się skompilowała");
+        //test
 
     }
 
