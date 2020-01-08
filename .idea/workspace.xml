@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7027d47-4b6b-442d-aa77-a5325c722d3c" name="Default Changelist" comment="Test">
+    <list default="true" id="b7027d47-4b6b-442d-aa77-a5325c722d3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebFluxExample.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/WebFluxExample.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +50,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
@@ -146,8 +150,8 @@
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.EndpointsTest.checkBaseUrl" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.ApplicationTest.add" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -167,7 +171,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563522541459</updated>
-      <workItem from="1578044581712" duration="1513000" />
+      <workItem from="1578044581712" duration="7654000" />
+      <workItem from="1578476067429" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1578045010419</created>
@@ -190,7 +195,49 @@
       <option name="project" value="LOCAL" />
       <updated>1578045830616</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove surefire">
+      <created>1578046111658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578046111658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix tests">
+      <created>1578046166603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578046166603</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix tests">
+      <created>1578046229360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578046229360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Broke tests">
+      <created>1578046742808</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578046742808</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add comment">
+      <created>1578050924121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578050924121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix &quot;test&quot;">
+      <created>1578052064839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578052064839</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +248,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -210,7 +259,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Add wrong tests on purpose" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add wrong tests on purpose" />
+    <MESSAGE value="Remove surefire" />
+    <MESSAGE value="Fix tests" />
+    <MESSAGE value="Broke tests" />
+    <MESSAGE value="Add comment" />
+    <MESSAGE value="Fix &quot;test&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix &quot;test&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
