@@ -10,7 +10,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    echo "Hello World"
+                    sh './abc.sh'
                 }
             }
         }
