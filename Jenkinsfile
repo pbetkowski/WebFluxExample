@@ -11,6 +11,8 @@ pipeline {
             steps {
                 script {
                     sh './abc.sh'
+
+                    sh './src/main/java/domain/cde.sh'
                 }
             }
         }
