@@ -14,9 +14,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh './abc.sh' 'jakaszmienna'
+                    sh './abc.sh'
 
-                    sh './src/main/java/domain/cde.sh'
+                    sh './src/main/java/domain/cde.sh $CURRENT_VINTAGE'
                 }
             }
         }

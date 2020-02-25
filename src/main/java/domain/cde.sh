@@ -1,3 +1,5 @@
 #!/bin/sh
 # This is a comment!
-echo Hello From CDE        # This is a comment, too!
+
+NAME=$1
+echo "Hello $NAME"  # This is a comment, too!
