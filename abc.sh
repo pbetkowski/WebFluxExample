@@ -1,5 +1,5 @@
 #!/bin/sh
 # This is a comment!
 
-
-echo Hello World        # This is a comment, too!
+$zmienna
+echo $zmienna       # This is a comment, too!
