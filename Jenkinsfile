@@ -12,7 +12,7 @@ pipeline {
                 script {
                     sh './abc.sh'
 
-                    sh './src/main/java/domain/cde.sh'
+                    sh './src/main/java/domain/cde.foo.sh
                 }
             }
         }
