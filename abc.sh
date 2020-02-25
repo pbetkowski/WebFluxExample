@@ -1,5 +1,5 @@
 #!/bin/sh
 # This is a comment!
-function foo() {
-    echo "hello"
-}
+
+
+echo Hello World        # This is a comment, too!

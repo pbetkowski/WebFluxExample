@@ -1,9 +1,13 @@
 pipeline {
     agent any
+
+      parameters {
+                string(name: 'CURRENT_VINTAGE', description: 'Current vintage')
+            }
     stages {
         stage('Prepare-pipeline') {
             steps {
-                bat "mvn clean"
+                echo ${CURRENT_VINTAGE}
             }
         }
 
@@ -12,7 +16,7 @@ pipeline {
                 script {
                     sh './abc.sh'
 
-                    sh './src/main/java/domain/cde.foo.sh'
+                    sh './src/main/java/domain/cde.sh'
                 }
             }
         }
