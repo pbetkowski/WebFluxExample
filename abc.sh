@@ -1,5 +1,5 @@
 #!/bin/sh
 # This is a comment!
 
-export ARCH=$1
-echo "${ARCH}"
+$ZMIENNA
+echo "${ZMIENNA}"       # This is a comment, too!
