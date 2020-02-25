@@ -14,7 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh './abc.sh' "jakiś parametr"
+                    sh './abc.sh'
 
                     sh './src/main/java/domain/cde.sh'
                 }
