@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Prepare-pipeline') {
             steps {
-                echo ${CURRENT_VINTAGE}
+                echo "${CURRENT_VINTAGE}"
             }
         }
 
