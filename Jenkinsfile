@@ -6,23 +6,11 @@ pipeline {
                 bat "mvn clean"
             }
         }
-        stage('Tests') {
-            steps {
-                bat "mvn test"
-            }
-        }
-
-
-        stage('Preparing jar') {
-            steps {
-                bat "mvn package"
-            }
-        }
 
         stage('Deploy') {
             steps {
                 script {
-                    sh abc.sh
+                    echo "Hello World"
                 }
             }
         }
